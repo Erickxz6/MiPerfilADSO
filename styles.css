@@ -1,9 +1,9 @@
 :root {
-  --color-fondo: #F0F4F8; /* Blanco azulado claro */
-  --color-texto: #121212; /* Negro suave */
-  --color-fondo-oscuro: #121212; /* Negro suave para modo oscuro */
-  --color-texto-oscuro: #F0F4F8; /* Texto claro para modo oscuro */
-  --color-acento: #0066CC; /* Azul vibrante */
+  --color-fondo: #000000ec;
+  --color-texto: #ffffff;
+  --color-fondo-oscuro: #6e86d4;
+  --color-texto-oscuro: #F4F8F1;
+  --color-acento: #0133d8;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -39,8 +39,7 @@ button {
   color: white;
   cursor: pointer;
 }
-
-button:hover { background-color: #004C99; /* Azul más oscuro para el hover */ }
+button:hover { background-color: #2D7A00; }
 
 main {
   display: flex;
@@ -54,7 +53,7 @@ main {
 section {
   padding: 16px;
   border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.03); /* Se mantiene un contraste sutil */
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 ul {
@@ -63,7 +62,6 @@ ul {
   flex-wrap: wrap;
   gap: 10px;
 }
-
 li {
   background-color: var(--color-acento);
   color: white;
@@ -76,7 +74,6 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
-
 a:hover { text-decoration: underline; }
 
 footer {
